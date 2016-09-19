@@ -24,6 +24,7 @@
   "homepage": "https://github.com/mapbox/eslint-plugin-script-tags#readme",
   "dependencies": {
     "execall": "^1.0.0",
+    "lodash": "^4.16.0",
     "split-lines": "^1.1.0",
     "strip-indent": "^2.0.0"
   },
