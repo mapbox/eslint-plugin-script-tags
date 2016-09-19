@@ -1,0 +1,36 @@
+{
+  "name": "eslint-plugin-script-tags",
+  "version": "0.1.0",
+  "description": "Lint the content of <script> tags in arbitrary text",
+  "main": "index.js",
+  "scripts": {
+    "tap": "tap test/test.js",
+    "lint": "eslint .",
+    "test": "npm run tap && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/eslint-plugin-script-tags.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "author": "Mapbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/eslint-plugin-script-tags/issues"
+  },
+  "homepage": "https://github.com/mapbox/eslint-plugin-script-tags#readme",
+  "dependencies": {
+    "execall": "^1.0.0",
+    "split-lines": "^1.1.0",
+    "strip-indent": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-davidtheclark-node": "^0.1.1",
+    "eslint-plugin-node": "^2.0.0",
+    "tap": "^7.1.2"
+  }
+}
