@@ -1,5 +1,7 @@
 # eslint-plugin-script-tags
 
+[![Build Status](https://travis-ci.org/mapbox/eslint-plugin-script-tags.svg?branch=master)](https://travis-ci.org/mapbox/eslint-plugin-script-tags)
+
 An ESLint plugin that allows you to lint the content of `<script>` tags in arbitrary text.
 
 Unlike [eslint-plugin-html](https://github.com/BenoitZugmeyer/eslint-plugin-html), which *parses* HTML to find `<script>`s, this plugin uses a regular expression.
