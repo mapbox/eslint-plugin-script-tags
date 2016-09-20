@@ -29,19 +29,19 @@ test('html', (assert) => {
   const report = cli.executeOnText(code, 'html.html');
   const messages = report.results[0].messages;
 
-  assert.deepEqual(messages[0][0].ruleId, 'indent');
-  assert.deepEqual(messages[0][0].line, 9);
-  assert.deepEqual(messages[0][0].column, 7);
-  assert.deepEqual(messages[0][1].ruleId, 'quotes');
-  assert.deepEqual(messages[0][1].line, 9);
-  assert.deepEqual(messages[0][1].column, 15);
+  assert.deepEqual(messages[0].ruleId, 'indent');
+  assert.deepEqual(messages[0].line, 9);
+  assert.deepEqual(messages[0].column, 7);
+  assert.deepEqual(messages[1].ruleId, 'quotes');
+  assert.deepEqual(messages[1].line, 9);
+  assert.deepEqual(messages[1].column, 15);
 
-  assert.deepEqual(messages[1][0].ruleId, 'indent');
-  assert.deepEqual(messages[1][0].line, 16);
-  assert.deepEqual(messages[1][0].column, 5);
-  assert.deepEqual(messages[1][1].ruleId, 'quotes');
-  assert.deepEqual(messages[1][1].line, 16);
-  assert.deepEqual(messages[1][1].column, 13);
+  assert.deepEqual(messages[2].ruleId, 'indent');
+  assert.deepEqual(messages[2].line, 16);
+  assert.deepEqual(messages[2].column, 5);
+  assert.deepEqual(messages[3].ruleId, 'quotes');
+  assert.deepEqual(messages[3].line, 16);
+  assert.deepEqual(messages[3].column, 13);
 
   assert.end();
 });
@@ -52,19 +52,19 @@ test('markdown', (assert) => {
   const report = cli.executeOnText(code, 'markdown.md');
   const messages = report.results[0].messages;
 
-  assert.deepEqual(messages[0][0].ruleId, 'indent');
-  assert.deepEqual(messages[0][0].line, 12);
-  assert.deepEqual(messages[0][0].column, 3);
-  assert.deepEqual(messages[0][1].ruleId, 'quotes');
-  assert.deepEqual(messages[0][1].line, 12);
-  assert.deepEqual(messages[0][1].column, 11);
+  assert.deepEqual(messages[0].ruleId, 'indent');
+  assert.deepEqual(messages[0].line, 12);
+  assert.deepEqual(messages[0].column, 3);
+  assert.deepEqual(messages[1].ruleId, 'quotes');
+  assert.deepEqual(messages[1].line, 12);
+  assert.deepEqual(messages[1].column, 11);
 
-  assert.deepEqual(messages[1][0].ruleId, 'indent');
-  assert.deepEqual(messages[1][0].line, 19);
-  assert.deepEqual(messages[1][0].column, 7);
-  assert.deepEqual(messages[1][1].ruleId, 'quotes');
-  assert.deepEqual(messages[1][1].line, 19);
-  assert.deepEqual(messages[1][1].column, 15);
+  assert.deepEqual(messages[2].ruleId, 'indent');
+  assert.deepEqual(messages[2].line, 19);
+  assert.deepEqual(messages[2].column, 7);
+  assert.deepEqual(messages[3].ruleId, 'quotes');
+  assert.deepEqual(messages[3].line, 19);
+  assert.deepEqual(messages[3].column, 15);
 
   assert.end();
 });
