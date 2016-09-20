@@ -32,3 +32,15 @@ Unfortunately, we do need to provide a finite list of file extensions to check. 
 - `.md`
 
 There's no reason not to add more: so if you'd like another, please PR!
+
+## Caveats
+
+Expected indentation (if you use the `indent` rule) is determined by the first line of code. This can get hairy if you do something sloppy like:
+
+```html
+<script>var a = 'foo';
+  var b = 'bar';
+</script>
+```
+
+So I wouldn't do that.
