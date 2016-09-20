@@ -25,8 +25,7 @@
   "dependencies": {
     "execall": "^1.0.0",
     "lodash": "^4.16.0",
-    "split-lines": "^1.1.0",
-    "strip-indent": "^2.0.0"
+    "split-lines": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^3.5.0",
