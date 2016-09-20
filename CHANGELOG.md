@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 0.1.4
 
 - Fixed: removed unnecessary `strip-indent` devDependency.
 
