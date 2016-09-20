@@ -17,7 +17,7 @@
     "eslintplugin"
   ],
   "author": "Mapbox",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mapbox/eslint-plugin-script-tags/issues"
   },
