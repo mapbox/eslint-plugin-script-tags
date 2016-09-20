@@ -37,6 +37,8 @@ There's no reason not to add more: so if you'd like another, please PR!
 
 ## Caveats
 
+### Indentation
+
 Expected indentation (if you use the `indent` rule) is determined by the first line of code. This can get hairy if you do something sloppy like:
 
 ```html
@@ -46,3 +48,7 @@ Expected indentation (if you use the `indent` rule) is determined by the first l
 ```
 
 So I wouldn't do that.
+
+### Arbitrary tags
+
+Ideally this module could allow you to arbitrarily modify the expected tags regular expression, from `<script>...</script>` to something like `{% highlight js %}...{% endhighlight %}` or `[javascript-block]...[end javascript-block]`, etc. However, to do so would require adding *options*, and it doesn't seem that ESLint's built options into the processor API. If you would like this feature and want to work on adding options, your help would be welcome.
