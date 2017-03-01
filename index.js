@@ -6,5 +6,6 @@ module.exports = {
   processors: {
     '.html': processor,
     '.md': processor,
+    '.jsp': processor,
   },
 };
