@@ -9,5 +9,8 @@ module.exports = {
     '.jsp': processor,
     '.tag': processor,
     '.hbs': processor,
+    '.ejs': processor,
+    '.php': processor,
+    '.vue': processor,
   },
 };
