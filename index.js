@@ -8,5 +8,6 @@ module.exports = {
     '.md': processor,
     '.jsp': processor,
     '.tag': processor,
+    '.hbs': processor,
   },
 };
