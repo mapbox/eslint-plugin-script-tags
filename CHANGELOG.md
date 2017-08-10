@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+
+- Added: `.hbs`, `.ejs`, `.php`, and `.vue` extensions.
+
 ## 0.3.0
 
 - Added: `.tag` extension.

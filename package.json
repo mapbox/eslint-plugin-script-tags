@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-script-tags",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Lint the content of <script> tags in arbitrary text",
   "main": "index.js",
   "scripts": {
