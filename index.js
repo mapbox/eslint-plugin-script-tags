@@ -12,5 +12,6 @@ module.exports = {
     '.ejs': processor,
     '.php': processor,
     '.vue': processor,
+    '.erb': processor,
   },
 };

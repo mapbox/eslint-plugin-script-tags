@@ -32,6 +32,13 @@ Unfortunately, we do need to provide a finite list of file extensions to check. 
 
 - `.html`
 - `.md`
+- `.jsp`
+- `.tag`
+- `.hbs`
+- `.ejs`
+- `.php`
+- `.vue`
+- `.erb`
 
 There's no reason not to add more: so if you'd like another, please PR!
 
