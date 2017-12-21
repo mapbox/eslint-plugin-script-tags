@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+
+- Added: `.erb` extension.
+
 ## 0.4.0
 
 - Added: `.hbs`, `.ejs`, `.php`, and `.vue` extensions.
