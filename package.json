@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-script-tags",
-  "version": "0.6.0",
+  "name": "@mapbox/eslint-plugin-script-tags",
+  "version": "0.7.0",
   "description": "Lint the content of <script> tags in arbitrary text",
   "main": "index.js",
   "scripts": {
