@@ -1,4 +1,4 @@
-# eslint-plugin-script-tags
+# @mapbox/eslint-plugin-script-tags
 
 [![Build Status](https://travis-ci.org/mapbox/eslint-plugin-script-tags.svg?branch=master)](https://travis-ci.org/mapbox/eslint-plugin-script-tags)
 

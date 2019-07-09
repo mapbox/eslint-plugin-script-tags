@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.0
+
+- 🚨 Deprecated `eslint-plugin-script-tag` and republished as `@mapbox/eslint-plugin-script-tags`.
+
 ## 0.6.0
 
 - Added: `.htm` extension.
