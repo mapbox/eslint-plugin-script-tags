@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0
+
+- Added: `.htm` extension.
+
 ## 0.5.0
 
 - Added: `.erb` extension.
