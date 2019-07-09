@@ -31,6 +31,7 @@ Use this module like any other [ESLint plugin](http://eslint.org/docs/user-guide
 Unfortunately, we do need to provide a finite list of file extensions to check. Here's the current list:
 
 - `.html`
+- `.htm`
 - `.md`
 - `.jsp`
 - `.tag`
