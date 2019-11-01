@@ -28,7 +28,7 @@
     "split-lines": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.5.0",
+    "eslint": "^6.6.0",
     "eslint-config-davidtheclark-node": "^0.1.1",
     "eslint-plugin-node": "^2.0.0",
     "tap": "^7.1.2"
