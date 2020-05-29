@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.0
+
+- Update lodash and tap due to vulnerabilities.
+
 ## 0.7.0
 
 - 🚨 Deprecated `eslint-plugin-script-tag` and republished as `@mapbox/eslint-plugin-script-tags`.
