@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+- Update to eslint@7.
+
 ## 0.9.0
 
 - Update dependencies.
