@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0
+
+- Update dependencies.
+- Add `.liquid` as available file extension.
+
 ## 0.8.0
 
 - Update lodash and tap due to vulnerabilities.
