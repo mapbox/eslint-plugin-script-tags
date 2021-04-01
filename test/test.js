@@ -4,7 +4,7 @@ const test = require('tap').test;
 const { ESLint } = require('eslint');
 const fs = require('fs');
 const path = require('path');
-const plugin = require('../index.js');
+const plugin = require('..');
 
 function fixture(name) {
   return fs.readFileSync(path.join(__dirname, `./fixtures/${name}`), 'utf8');
