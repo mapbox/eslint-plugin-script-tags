@@ -28,9 +28,9 @@
     "split-lines": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.5.0",
-    "eslint-config-davidtheclark-node": "^0.1.1",
-    "eslint-plugin-node": "^2.0.0",
+    "@mapbox/eslint-config-mapbox": "^3.0.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-node": "^11.1.0",
     "tap": "^14.11.0"
   }
 }
