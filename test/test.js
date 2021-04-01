@@ -32,7 +32,7 @@ test('html', async (assert) => {
   const code = fixture('html.html');
   const cli = createCliEngine();
   const report = await cli.lintText(code, {
-    filePath: path.join(__dirname, './fixtures/html.html')
+    filePath: './fixtures/html.html'
   });
   const messages = report[0].messages;
 
@@ -57,7 +57,7 @@ test('markdown', async (assert) => {
   const code = fixture('markdown.md');
   const cli = createCliEngine();
   const report = await cli.lintText(code, {
-    filePath: path.join(__dirname, './fixtures/markdown.md')
+    filePath: './fixtures/markdown.md'
   });
 
   const messages = report[0].messages;
