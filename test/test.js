@@ -78,3 +78,28 @@ test('markdown', async (assert) => {
 
   assert.end();
 });
+
+test('coldfusion', async (assert) => {
+  const code = fixture('coldfusion.cfm');
+  const cli = createCliEngine();
+  const report = await cli.lintText(code, {
+    filePath: './fixtures/coldfusion.cfm'
+  });
+  const messages = report[0].messages;
+
+  assert.deepEqual(messages[0].ruleId, 'indent');
+  assert.deepEqual(messages[0].line, 20);
+  assert.deepEqual(messages[0].column, 7);
+  assert.deepEqual(messages[1].ruleId, 'quotes');
+  assert.deepEqual(messages[1].line, 20);
+  assert.deepEqual(messages[1].column, 17);
+
+  assert.deepEqual(messages[2].ruleId, 'indent');
+  assert.deepEqual(messages[2].line, 27);
+  assert.deepEqual(messages[2].column, 5);
+  assert.deepEqual(messages[3].ruleId, 'quotes');
+  assert.deepEqual(messages[3].line, 27);
+  assert.deepEqual(messages[3].column, 15);
+
+  assert.end();
+});
