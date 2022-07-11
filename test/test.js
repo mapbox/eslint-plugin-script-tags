@@ -50,6 +50,23 @@ test('html', async (assert) => {
   assert.deepEqual(messages[3].line, 16);
   assert.deepEqual(messages[3].column, 13);
 
+  assert.deepEqual(messages[4].ruleId, 'indent');
+  assert.deepEqual(messages[4].line, 22);
+  assert.deepEqual(messages[4].column, 5);
+  assert.deepEqual(messages[5].ruleId, 'quotes');
+  assert.deepEqual(messages[5].line, 22);
+  assert.deepEqual(messages[5].column, 15);
+
+  assert.deepEqual(messages[6].ruleId, 'indent');
+  assert.deepEqual(messages[6].line, 27);
+  assert.deepEqual(messages[6].column, 5);
+  assert.deepEqual(messages[7].ruleId, 'quotes');
+  assert.deepEqual(messages[7].line, 27);
+  assert.deepEqual(messages[7].column, 15);
+
+  // Assert that is does not report errors for ld+json scripts
+  assert.deepEqual(messages.length, 8);
+
   assert.end();
 });
 
