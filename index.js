@@ -14,6 +14,7 @@ module.exports = {
     '.php': processor,
     '.vue': processor,
     '.erb': processor,
-    '.liquid': processor
+    '.liquid': processor,
+    '.cfm': processor
   }
 };

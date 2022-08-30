@@ -41,6 +41,7 @@ Unfortunately, we do need to provide a finite list of file extensions to check. 
 - `.vue`
 - `.erb`
 - `.liquid`
+- `.cfm`
 
 There's no reason not to add more: so if you'd like another, please PR!
 
